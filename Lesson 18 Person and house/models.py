@@ -11,18 +11,6 @@ class Person:
         self.own_money = own_money
         self.own_house = 0
 
-    # @property
-    # def own_house(self):
-    #     return self.__own_house
-    #
-    # @own_house.setter
-    # def own_house(self, value=1):
-    #     self.__own_house += value
-    #
-    # @own_house.getter
-    # def own_house(self):
-    #     return self.__own_house
-
     def __repr__(self):
         return f"My name's {self.name}. My age's {self.age}."\
                f"I don't have my own house. I have {self.own_money}$."
@@ -33,10 +21,6 @@ class Person:
 
     def make_money(self, salary):
         self.own_money += salary
-
-    # def buy_house(self, discount):
-    #     if self.own_money >= House.:
-    #         House.get_discount()
 
 
 class House:

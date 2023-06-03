@@ -1,5 +1,5 @@
 from annotations import (PersonAnnotation, HouseAnnotation)
-from models import (generate_person, generate_house, House, Person)
+from models import (generate_person, generate_house)
 
 
 def price_with_discount(house: HouseAnnotation, discount: int) -> float:
